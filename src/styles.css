@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(20, 20, 24, 1);
+    color: rgb(210,210,210);
+}
+
+.title {
+    /*text-align: center;*/
+    /*padding-top: 30px;*/
+    text-align: center;
+}
+
+/*h1 {
+    padding-bottom: 50px;
+}
+
+
+div.intro {
+    padding-top: 50px;
+    left: 00px;
+    right: 00px;
+}*/
+
+
+/* Left and right column */
+.cside {
+  float: left;
+  width: 25%;
+  visibility: collapse;
+}
+
+/* Middle column */
+.cmiddle {
+  float: left;
+  width: 50%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    padding-bottom: 50px;
+}   
+

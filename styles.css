@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(20, 20, 24, 1);
+    color: rgb(210,210,210);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.title {
+    /*text-align: center;*/
+    /*padding-top: 30px;*/
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(210,210,210);
+}
+
+.links a:link {
+    color: rgb(210,210,210);
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgb(210,210,210);
+    text-decoration: none;
+}
+
+.topbar {
+  background-color: rgb(20, 20, 24);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topbar a.active {
+  background-color: rgb(255,105,97);
+  color: white;
+}
+
+div.intro {
+    padding-top: 50px;
+    left: 00px;
+    right: 00px;
+}
+
+
+/* Left and right column */
+.cside {
+  float: left;
+  width: 25%;
+  visibility: collapse;
+}
+
+/* Middle column */
+.cmiddle {
+  float: left;
+  width: 50%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    padding-bottom: 50px;
+    text-indent: 3em;
+}   
+
